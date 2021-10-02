@@ -18,6 +18,7 @@ function WeatherFetch() {
             setDescription(data.current.condition.text);
             setIconID(data.current.condition.icon);
             setLocation(data.location);
+            console.log(data);
           })
     },[]);
 
